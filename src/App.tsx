@@ -5,6 +5,8 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import "bootstrap/dist/js/bootstrap.bundle.min";
 import {Route, Switch} from "react-router-dom";
 import Home from "./pages/home";
+import Footer from "./components/footer";
+import TopBar from "./components/topBar";
 
 function App() {
     return (
@@ -17,6 +19,8 @@ function App() {
                     </Route>
                 </Switch>
             </div>
+            <Footer/>
+            {/*<TopBar/>*/}
         </>
     );
 }

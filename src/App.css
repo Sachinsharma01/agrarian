@@ -33,7 +33,7 @@ ul {
 	border-bottom: 1.5px solid #1DCA11;
 }
 
-li {
+.header li {
 	line-height: 70px;
 	font-size: x-large;
 }
@@ -75,5 +75,18 @@ Link {
 		transform: translateY(0rem);
 	}
 }
-
-
+.topbar {
+	background: #2C2734;
+}
+.footer {
+	background: #26272B;
+	color: white;
+}
+.footer p {
+	text-align: justify;
+	color: rgb(177, 177, 177);
+}
+.footer Link {
+	padding: 0;
+	margin: 0;
+}
