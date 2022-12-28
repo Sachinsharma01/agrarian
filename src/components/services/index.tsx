@@ -7,7 +7,7 @@ import MobileService from "./MobileService";
 const Services = () => {
     const isMobile = useQuery();
     return (<>
-        <div className='container-fluid mt-4'>
+        <div className='container-fluid mt-5'>
             <div className='container'>
                 <div className='row'>
                     <div className='text-center'><span className='fs-1'>Solutions We Offer</span></div>
@@ -25,14 +25,14 @@ const Services = () => {
                                             {/*<button>*/}
                                             <small className='s1-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s1-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                             {/*</button>*/}
                                         </div>
                                         <div className='col-6 text-center s2'>
                                             <h5>Farmer Community</h5>
                                             <small className='s2-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s2-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -44,13 +44,13 @@ const Services = () => {
                                             <h5>Disease Diagnosis</h5>
                                             <small className='s3-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s3-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-end s4'>
                                             <h5>Farmer Community</h5>
                                             <small className='s4-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s4-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
                                 </div>
@@ -62,13 +62,13 @@ const Services = () => {
                                             <h5>Disease Diagnosis</h5>
                                             <small className='s5-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s5-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-center s6'>
                                             <h5>Farmer Community</h5>
                                             <small className='s6-btn'>Full Crop Disease Diagnosis</small>
                                             <Link className='s6-btn' to='/'
-                                                  style={{fontSize: "30px"}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
                                 </div>

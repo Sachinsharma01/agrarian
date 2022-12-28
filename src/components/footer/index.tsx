@@ -23,11 +23,12 @@ const Footer = () => {
                     </div>
                     <div className='col-md-3 mt-4'>
                         <h2>Quick Links</h2>
-                        <div className='d-flex justify-content-center flex-column'>
-                            <p>LINK</p>
-                            <p>LINK</p>
-                            <p>LINK</p>
-                            <p>LINK</p>
+                        <div className='d-flex justify-content-center flex-column quick-links'>
+                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Home</Link>
+                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Contact</Link>
+                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Our Team</Link>
+                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>About</Link>
+                            
                         </div>
                     </div>
                     <div className='col-md-3 mt-4'>
