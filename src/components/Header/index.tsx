@@ -16,7 +16,7 @@ const Header = () => {
                         <div className='col-md-1 col-10'>
                             <img src='/assets/logo.jpg' alt='agrarian'/>
                         </div>
-                        <div className='col-md-11 col-2 '>
+                        <div className='col-md-11 col-2'>
                             {!isMobile ? <div className='container text-center h-100'>
                                     <ul className='row h-100'>
                                         <li key={1} className='col-3'>

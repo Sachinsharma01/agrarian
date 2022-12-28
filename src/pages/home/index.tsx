@@ -1,5 +1,6 @@
 import React from "react";
 import Banner from "../../components/banner";
+import Services from "../../components/services";
 
 const Home = () => {
     return (
@@ -11,7 +12,8 @@ const Home = () => {
                 <div className='container-fluid mt-5'>
                     <div className='container'>
                         <div className='row solutions'>
-                            <div className={'col-md-4 sol d-flex justify-content-center align-items-center flex-column'}>
+                            <div
+                                className={'col-md-4 sol d-flex justify-content-center align-items-center flex-column'}>
                                 <img src='/assets/forest.png' height='200px' width='200px' alt='natural farming'/>
                                 <h5 className='mt-4'>Crop Seasoning</h5>
                             </div>
@@ -26,9 +28,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <div>
-
-                </div>
+                <Services/>
             </div>
         </div>
     )

@@ -4,11 +4,21 @@
 /*  border: 1px solid black;*/
 /*  height: 70px;*/
 /*}*/
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body {
+	color: #002639;
+}
 .header {
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 	z-index: 99999;
-	position: absolute;
+	/*position: absolute;*/
+	background: #ffff;
 	top: 0;
+	position: fixed;
 }
 .sidebar {
 	z-index: 999;
@@ -51,6 +61,7 @@ Link {
 }
 .banner-text {
 	animation: appear 1s ease-in-out;
+	color: white!important;
 }
 .sol {
 	border-right: 1px solid #1DCA11;
@@ -90,3 +101,44 @@ Link {
 	padding: 0;
 	margin: 0;
 }
+.ser {
+	/*background: red;*/
+	/*border: 2px solid gray;*/
+	height: 50vh;
+}
+
+.service {
+	background-image: url("/public/assets/service-logo.png");
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.s1,.s2,.s3,.s4,.s5,.s6 {
+	transition: .5s ease-out;
+}
+.s1-btn,.s2-btn,.s3-btn,.s4-btn,.s5-btn,.s6-btn {
+	display: none;
+}
+.s1:hover,.s2:hover,.s3:hover,.s4:hover,.s5:hover,.s6:hover {
+	transform: scale(1.1);
+}
+.s1:hover .s1-btn {
+	display: block;
+}
+.s2:hover .s2-btn {
+	display: block;
+}
+.s3:hover .s3-btn {
+	display: block;
+}
+.s4:hover .s4-btn {
+	display: block;
+}
+.s5:hover .s5-btn {
+	display: block;
+}
+.s6:hover .s6-btn {
+	display: block;
+}
+/*.mbs {*/
+/*	height: 100vh;*/
+/*}*/

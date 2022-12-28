@@ -6,7 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import {Route, Switch} from "react-router-dom";
 import Home from "./pages/home";
 import Footer from "./components/footer";
-import TopBar from "./components/topBar";
+
 
 function App() {
     return (
