@@ -90,3 +90,118 @@ Link {
 	padding: 0;
 	margin: 0;
 }
+
+/* ----------------------------------- Home About --------------------------------*/
+.two2{
+	font-family: fantasy;
+	font-size: larger;
+	font-weight: bold;
+	color:#E8A256;
+	margin-left: 20px;
+}
+.two22{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size:xx-large;
+	margin-left: 20px;
+}
+.two222{
+	color:#949199;
+	margin-left: 20px;
+	font-size:x-large;
+}
+.two2222{
+	background-color: #E59140;
+	height:80px;
+	width:200px;
+	font-size:larger;
+	color:white;
+	font-weight: bold;
+	margin-left: 20px;
+	border-radius: 50px;
+
+}
+.one{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+}
+.two{
+	width:100%;
+
+}
+.two,.three{
+	width:50%;
+
+}
+
+/* ---------------------------------- About Us ----------------------------*/
+
+.aboutus{
+	font-family: fantasy;
+	font-size: 30px;
+	font-weight: bold;
+	color:#E8A256;
+	margin-left: 20px;
+}
+.aboutus1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size:70px;
+	margin-left: 20px;
+}
+.aboutus2{
+	color:#949199;
+	margin-left: 20px;
+	font-size:x-large;
+}
+.about{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	width:100vw;
+}
+.about1{
+	width:100%;
+
+}
+.about2,.aboutus3{
+	width:50%;
+}
+
+/* ---------------------------- Our team ----------------------------*/
+
+.our{
+	font-family: fantasy;
+	font-size: 30px;
+	font-weight: bold;
+	color:#E8A256;
+	margin-left: 20px;
+}
+.our1{
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-size:70px;
+	margin-left: 20px;
+}
+.ourteam{
+	display:flex;
+	justify-content: left;
+	align-items: center;
+	width:100vw;
+}
+.image{
+	margin-left:20px;
+	height:150px;
+	width:150px;
+}
+.head1{
+	margin-left:20px;
+}
+.ourteam5{
+	display:flex;
+	justify-content: left;
+	align-items: center;
+	width:100vw;
+
+}
+
+

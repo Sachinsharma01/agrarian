@@ -7,6 +7,10 @@ import {Route, Switch} from "react-router-dom";
 import Home from "./pages/home";
 import Footer from "./components/footer";
 import TopBar from "./components/topBar";
+import HomePage from "./components/Home/HomePage";
+import Aboutus from "./components/Aboutus/Aboutus";
+import Ourteam from "./components/Ourteam/Ourteam";
+
 
 function App() {
     return (
@@ -19,8 +23,12 @@ function App() {
                     </Route>
                 </Switch>
             </div>
+            <HomePage></HomePage>
+            {/*<Aboutus></Aboutus>*/}
+            {/*<Ourteam></Ourteam>*/}
             <Footer/>
             {/*<TopBar/>*/}
+
         </>
     );
 }
