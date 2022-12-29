@@ -7,6 +7,10 @@ import {VscChromeClose} from "react-icons/vsc";
 
 const Header = () => {
     const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
+    const [active, setActive] = useState('home')
+    const setHandler = (active: any) => {
+        setActive(active)
+    }
     const isMobile = useQuery();
     return (
         <nav className='container-fluid header'>
@@ -20,20 +24,22 @@ const Header = () => {
                             {!isMobile ? <div className='container text-center h-100'>
                                     <ul className='row h-100'>
                                         <li key={1} className='col-3'>
-                                            <Link to='/' className='nav-link'><span
-                                                className='link'><span>Home</span></span></Link>
+                                            <Link to='/' onClick={() => setHandler('home')} className='nav-link'><span
+                                                className='link'><span
+                                                className={active === 'home' ? 'active' : ''}>Home</span></span></Link>
                                         </li>
                                         <li key={2} className='col-3'>
-                                            <Link to='/' className='nav-link'><span
-                                                className='link'><span>About Us</span></span></Link>
+                                            <Link to='/about' onClick={() => setHandler('about')} className='nav-link'><span
+                                                className='link'><span className={active === 'about' ? 'active' : ''}>About Us</span></span></Link>
                                         </li>
-                                        <li key={3} className='col-3'><Link to='/'
+                                        <li key={3} className='col-3'><Link to='/' onClick={() => setHandler('team')}
                                                                             className='nav-link'><span
-                                            className='link'><span>Our Team</span></span></Link>
+                                            className='link'><span
+                                            className={active === 'team' ? 'active' : ''}>Our Team</span></span></Link>
                                         </li>
-                                        <li key={4} className='col-3'><Link to='/'
+                                        <li key={4} className='col-3'><Link to='/' onClick={() => setHandler('contact')}
                                                                             className='nav-link'><span
-                                            className='link'><span>Contact Us</span></span>
+                                            className='link'><span className={active === 'contact' ? 'active' : ''}>Contact Us</span></span>
                                         </Link>
                                         </li>
                                     </ul>

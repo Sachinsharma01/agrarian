@@ -6,6 +6,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min";
 import {Route, Switch} from "react-router-dom";
 import Home from "./pages/home";
 import Footer from "./components/footer";
+import AboutUs from "./pages/about";
 
 
 function App() {
@@ -16,6 +17,9 @@ function App() {
                 <Switch>
                     <Route path='/' exact>
                         <Home/>
+                    </Route>
+                    <Route path='/about' exact>
+                        <AboutUs/>
                     </Route>
                 </Switch>
             </div>

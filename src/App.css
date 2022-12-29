@@ -132,9 +132,15 @@ Link {
 
 
 /* ------------------------------------About------------------------------------- */
-.ab {
+.ab,.ab-left {
 	animation: appear 1s ease-in-out
 }
+.ab-data {
+	animation: left 1.3s ease-in;
+}
+/*.aboutus {*/
+/*	height: 100vh;*/
+/*}*/
 .about {
 	border-bottom: 1px solid #1DCA11;
 }
@@ -143,7 +149,24 @@ Link {
 	border: none !important;
 	font-weight: 500 !important;
 }
-
+.about-banner {
+	background: url("/public/assets/about-banner.jpg");
+	height: 40vh;
+}
+.l-btn {
+	border-radius: 20px;
+	margin-right: 10px !important;
+	height: 90px;
+	/*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
+}
+.ab-left {
+	border-right: 1px solid #1DCA11;
+	animation: right 1.3s ease-in;
+	/*border-radius: 30px;*/
+}
+.active {
+	border-bottom: 1px solid #1DCA11;
+}
 /*-----------------------------------Animations----------------------------------*/
 @keyframes appear {
 	0% {
@@ -157,5 +180,39 @@ Link {
 	100% {
 		opacity: 1;
 		transform: translateY(0rem);
+	}
+}
+@keyframes left {
+	0% {
+		opacity: 0;
+		transform: translateX(2rem);
+	}
+	33% {
+		opacity: 0.5;
+		transform: translateX(1.5rem);
+	}
+	66% {
+		transform: translateX(1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0rem);
+	}
+}
+@keyframes right {
+	0% {
+		opacity: 0;
+		transform: translateX(-2rem);
+	}
+	33% {
+		opacity: 0.5;
+		transform: translateX(-1.5rem);
+	}
+	66% {
+		transform: translateX(-1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateX(0rem);
 	}
 }
