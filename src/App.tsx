@@ -10,6 +10,7 @@ import TopBar from "./components/topBar";
 import HomePage from "./components/Home/HomePage";
 import Aboutus from "./components/Aboutus/Aboutus";
 import Ourteam from "./components/Ourteam/Ourteam";
+import Headerteam from "./components/Headerteam/Headerteam";
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
             <HomePage></HomePage>
             {/*<Aboutus></Aboutus>*/}
             {/*<Ourteam></Ourteam>*/}
+            {<Headerteam></Headerteam>}
             <Footer/>
             {/*<TopBar/>*/}
 

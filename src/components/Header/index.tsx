@@ -24,8 +24,15 @@ const Header = () => {
                                                 className='link'><span>Home</span></span></Link>
                                         </li>
                                         <li key={2} className='col-3'>
-                                            <Link to='/' className='nav-link'><span
-                                                className='link'><span>About Us</span></span></Link>
+                                            <Link to='/' className='nav-link'>
+                                                <select className="class3">
+                                                    <option><span className='link'><span>About Us</span></span></option>
+                                                    <option>List1</option>
+                                                    <option>List2</option>
+                                                    <option>List3</option>
+                                                </select>
+                                            </Link>
+
                                         </li>
                                         <li key={3} className='col-3'><Link to='/'
                                                                             className='nav-link'><span

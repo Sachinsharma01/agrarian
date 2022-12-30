@@ -204,4 +204,56 @@ Link {
 
 }
 
+/* --------------------------------- Header team -----------------------*/
+
+*{
+	padding:0px;
+	margin:0px;
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.class1{
+	background-color: blue;
+	height:100px;
+	width:100vw;
+	display:flex;
+	justify-content: center;
+	align-items:center;
+}
+.class2 ul{
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	list-style: none;
+
+}
+.class2 ul li{
+
+	font-size:30px;
+	padding: 10px;
+	margin:20px;
+}
+li:hover{
+	background-color: white;
+	border-bottom: 1px solid red;
+	color:black;
+	border-radius: 5px;
+}
+.class3{
+	font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	font-size:25px;
+	padding: 10px;
+	margin:10px;
+	background: transparent;
+	border-bottom: 1.5px solid red;
+	color:black;
+	border-radius: 5px;
+	border: none;
+
+}
+.class3:focus{
+	border:none;
+	outline:none;
+}
+
 
