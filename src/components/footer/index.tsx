@@ -52,8 +52,8 @@ const Footer = () => {
                         </div>
                     </div>
                 </div>
-                <div style={{textAlign: 'center', background: '#000000', marginLeft: '0px'}}
-                     className='container-fluid mt-3'>Copyright &copy;2022 All Rights Reserved by <span
+                <div style={{textAlign: 'center', marginLeft: '0px'}}
+                     className='container-fluid mt-3'>Copyright &copy;2023 All Rights Reserved by <span
                     style={{color: '#1DCA11'}}>Agrarian</span>
                 </div>
             </footer>

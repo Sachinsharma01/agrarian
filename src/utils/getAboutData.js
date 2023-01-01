@@ -1,0 +1,1 @@
+import config from "../config";export function getAboutdata(name) {    const lowerName = name.split(" ")[0].toLowerCase();    let profile = config[lowerName];    return {        name: profile.name,        about: profile.about,        image: profile.image,        profile: profile.profile,    };}

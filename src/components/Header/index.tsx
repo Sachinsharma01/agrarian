@@ -32,12 +32,12 @@ const Header = () => {
                                             <Link to='/about' onClick={() => setHandler('about')} className='nav-link'><span
                                                 className='link'><span className={active === 'about' ? 'active' : ''}>About Us</span></span></Link>
                                         </li>
-                                        <li key={3} className='col-3'><Link to='/' onClick={() => setHandler('team')}
+                                        <li key={3} className='col-3'><Link to='/team' onClick={() => setHandler('team')}
                                                                             className='nav-link'><span
                                             className='link'><span
                                             className={active === 'team' ? 'active' : ''}>Our Team</span></span></Link>
                                         </li>
-                                        <li key={4} className='col-3'><Link to='/' onClick={() => setHandler('contact')}
+                                        <li key={4} className='col-3'><Link to='/contact' onClick={() => setHandler('contact')}
                                                                             className='nav-link'><span
                                             className='link'><span className={active === 'contact' ? 'active' : ''}>Contact Us</span></span>
                                         </Link>

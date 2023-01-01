@@ -8,6 +8,12 @@ body {
 	color: #002639;
 	scroll-behavior: smooth;
 }
+
+
+/*-------------------------------------Footer--------------------------------------*/
+footer {
+	background: url("/public/assets/footer.jpg") !important;
+}
 footer h2, footer Link {
 	color: rgb(180, 180, 180) !important;
 }
@@ -157,6 +163,7 @@ Link {
 	border-radius: 20px;
 	margin-right: 10px !important;
 	height: 90px;
+	cursor: pointer;
 	/*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
 }
 .ab-left {
@@ -167,6 +174,41 @@ Link {
 .active {
 	border-bottom: 1px solid #1DCA11;
 }
+/*-----------------------------------Contact------------------------------------*/
+.contact {
+	background: url("/public/assets/footer.jpg");
+	height: 40vh;
+}
+.contact-form {
+	border-radius: 10px;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	animation: appear 1.5s ease-in;
+	/*border: 1px solid red;*/
+}
+input {
+	border: .5px solid gray;
+}
+input:focus, textarea:focus {
+	outline: 1px solid #1DCA11;
+	border: none;
+}
+textarea {
+	height: 45vh;
+	resize: none !important;
+}
+/*-----------------------------------Our Team------------------------------------*/
+
+.team-banner {
+	background: url("/public/assets/footer.jpg") !important;
+	height: 40vh;
+}
+.team-name:hover {
+	color: #00816f !important;
+}
+/*.card {*/
+/*	margin-right: 20px;*/
+/*}*/
+
 /*-----------------------------------Animations----------------------------------*/
 @keyframes appear {
 	0% {

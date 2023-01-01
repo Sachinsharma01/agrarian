@@ -7,6 +7,9 @@ import {Route, Switch} from "react-router-dom";
 import Home from "./pages/home";
 import Footer from "./components/footer";
 import AboutUs from "./pages/about";
+import Team from "./pages/team";
+import TeamMemberProfileInfo from "./pages/team/TeamMemberProfileInfo";
+import Contact from "./pages/contact";
 
 
 function App() {
@@ -20,6 +23,15 @@ function App() {
                     </Route>
                     <Route path='/about' exact>
                         <AboutUs/>
+                    </Route>
+                    <Route path='/team' exact>
+                        <Team />
+                    </Route>
+                    <Route path='/team/profile/:name' exact>
+                        <TeamMemberProfileInfo />
+                    </Route>
+                    <Route path='/contact' exact>
+                        <Contact />
                     </Route>
                 </Switch>
             </div>
