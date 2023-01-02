@@ -11,6 +11,9 @@ const Header = () => {
     const setHandler = (active: any) => {
         setActive(active)
     }
+    const setOpen = () => {
+        setIsSideBarOpen(false)
+    }
     const isMobile = useQuery();
     return (
         <nav className='container-fluid header'>
@@ -52,7 +55,7 @@ const Header = () => {
                         </div>
                         {
                             isSiderBarOpen &&
-                            <SideBar/>
+                            <SideBar setOpen={setOpen}/>
                         }
                     </div>
                 </div>
