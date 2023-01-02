@@ -15,12 +15,12 @@ const SideBar = () => {
                             className='link'><span>About Us</span></span></Link>
                     </li>
                     <li className='col-12 side-link my-4'>
-                        <Link to='/' className='nav-link'><span
+                        <Link to='/team' className='nav-link'><span
                             className='link'><span>Our Team</span></span></Link>
                     </li>
                     <li className='col-12 side-link my-4'>
-                        <Link to='/' className='nav-link'><span
-                            className='link'><span>About Us</span></span></Link>
+                        <Link to='/contact' className='nav-link'><span
+                            className='link'><span>Contact Us</span></span></Link>
                     </li>
                 </ul>
             </div>

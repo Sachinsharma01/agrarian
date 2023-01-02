@@ -4,6 +4,7 @@ import Services from "../../components/services";
 import About from "../../components/About";
 
 const Home = () => {
+    document.title = 'Agrarian | The Trust Of Growth'
     return (
         <div className='container-fluid'>
             <div className='row'>

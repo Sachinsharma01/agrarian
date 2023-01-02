@@ -101,7 +101,7 @@ Link {
 }
 
 .service {
-	background-image: url("/public/assets/service-logo.png");
+	background-image: url("/public/assets/service-logo.jpg");
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -144,6 +144,17 @@ Link {
 .ab-data {
 	animation: left 1.3s ease-in;
 }
+.ab-left {
+	height: 10vh;
+	/*border: 1px solid red;*/
+	/*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
+}
+.actDiv {
+	/*background: #d2d2d2;*/
+	border: 1px solid #1DCA11;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+}
 /*.aboutus {*/
 /*	height: 100vh;*/
 /*}*/
@@ -159,15 +170,20 @@ Link {
 	background: url("/public/assets/about-banner.jpg");
 	height: 40vh;
 }
+
+.aboutData {
+	animation: down 1.7s ease-in;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
 .l-btn {
-	border-radius: 20px;
+	/*border-radius: 20px;*/
 	margin-right: 10px !important;
-	height: 90px;
+	height: 80px;
 	cursor: pointer;
 	/*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
 }
 .ab-left {
-	border-right: 1px solid #1DCA11;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	animation: right 1.3s ease-in;
 	/*border-radius: 30px;*/
 }
@@ -175,6 +191,10 @@ Link {
 	border-bottom: 1px solid #1DCA11;
 }
 /*-----------------------------------Contact------------------------------------*/
+.places div:hover {
+	color: #1DCA11;
+	cursor: pointer;
+}
 .contact {
 	background: url("/public/assets/footer.jpg");
 	height: 40vh;
@@ -256,5 +276,22 @@ textarea {
 	100% {
 		opacity: 1;
 		transform: translateX(0rem);
+	}
+}
+@keyframes down {
+	0% {
+		opacity: 0;
+		transform: translateY(-2rem);
+	}
+	33% {
+		opacity: 0.5;
+		transform: translateY(-1.5rem);
+	}
+	66% {
+		transform: translateY(-1rem);
+	}
+	100% {
+		opacity: 1;
+		transform: translateY(0rem);
 	}
 }
