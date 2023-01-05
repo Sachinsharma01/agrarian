@@ -1,9 +1,11 @@
 @import url('./constants.css');
+
 * {
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
 }
+
 body {
 	color: #002639;
 	scroll-behavior: smooth;
@@ -14,9 +16,11 @@ body {
 footer {
 	background: url("/public/assets/footer.jpg") !important;
 }
+
 footer h2, footer Link {
 	color: rgb(180, 180, 180) !important;
 }
+
 /* -----------------------------------Header-------------------------------------- */
 .header {
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
@@ -26,10 +30,12 @@ footer h2, footer Link {
 	top: 0;
 	position: fixed;
 }
+
 .sidebar {
 	z-index: 999;
 	background: white;
 }
+
 ul {
 	list-style: none;
 }
@@ -41,11 +47,28 @@ ul {
 	transition: transform .3s ease-in-out;
 }
 
-.nav-link span:hover {
+.team-hover {
+	outline: none;
+	border: none;
+	transition: transform .3s ease-in-out;
+}
+
+.team-hover * {
+	background: white;
+	height: 50px;
+}
+
+.team-hover *:hover {
+	cursor: pointer;
+	border-bottom: 1.5px solid #1DCA11;
+}
+
+.nav-link span:hover, .team-hover:hover {
 	transform: scale(1.1);
 }
 
-.nav-link .link span:hover {
+.nav-link .link span:hover, .team-hover:hover {
+	cursor: pointer;
 	border-bottom: 1.5px solid #1DCA11;
 }
 
@@ -57,18 +80,22 @@ ul {
 Link {
 	text-decoration: none;
 }
+
 .sidebar {
 	height: 80vh;
 	width: 100vw;
 }
+
 .read-more {
 	background: var(--primary-color);
 	color: white;
 }
+
 .banner-text {
 	animation: appear 1s ease-in-out;
-	color: white!important;
+	color: white !important;
 }
+
 .sol {
 	border-right: 1px solid #1DCA11;
 }
@@ -80,14 +107,17 @@ Link {
 .topbar {
 	background: #2C2734;
 }
+
 .footer {
 	background: #26272B;
 	color: white;
 }
+
 .footer p {
 	text-align: justify;
 	color: rgb(177, 177, 177);
 }
+
 .footer Link {
 	padding: 0;
 	margin: 0;
@@ -105,67 +135,83 @@ Link {
 	background-position: center;
 	background-repeat: no-repeat;
 }
+
 .fs-1 {
 	border-bottom: 1px solid #1DCA11;
 }
-.s1,.s2,.s3,.s4,.s5,.s6 {
+
+.s1, .s2, .s3, .s4, .s5, .s6 {
 	transition: .5s ease-out;
 }
-.s1-btn,.s2-btn,.s3-btn,.s4-btn,.s5-btn,.s6-btn {
+
+.s1-btn, .s2-btn, .s3-btn, .s4-btn, .s5-btn, .s6-btn {
 	display: none;
 }
-.s1:hover,.s2:hover,.s3:hover,.s4:hover,.s5:hover,.s6:hover {
+
+.s1:hover, .s2:hover, .s3:hover, .s4:hover, .s5:hover, .s6:hover {
 	transform: scale(1.1);
 }
+
 .s1:hover .s1-btn {
 	display: block;
 }
+
 .s2:hover .s2-btn {
 	display: block;
 }
+
 .s3:hover .s3-btn {
 	display: block;
 }
+
 .s4:hover .s4-btn {
 	display: block;
 }
+
 .s5:hover .s5-btn {
 	display: block;
 }
+
 .s6:hover .s6-btn {
 	display: block;
 }
 
 
 /* ------------------------------------About------------------------------------- */
-.ab,.ab-left {
+.ab, .ab-left {
 	animation: appear 1s ease-in-out
 }
+
 .ab-data {
 	animation: left 1.3s ease-in;
 }
+
 .ab-left {
 	height: 10vh;
 	/*border: 1px solid red;*/
 	/*box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;*/
 }
+
 .actDiv {
 	/*background: #d2d2d2;*/
 	border: 1px solid #1DCA11;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 
 }
+
 /*.aboutus {*/
 /*	height: 100vh;*/
 /*}*/
 .about {
 	border-bottom: 1px solid #1DCA11;
 }
+
 .read-btn {
 	background: #1DCA11 !important;
 	border: none !important;
 	font-weight: 500 !important;
 }
+
 .about-banner {
 	background: url("/public/assets/about-banner.jpg");
 	height: 40vh;
@@ -175,6 +221,7 @@ Link {
 	animation: down 1.7s ease-in;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
+
 .l-btn {
 	/*border-radius: 20px;*/
 	margin-right: 10px !important;
@@ -182,49 +229,60 @@ Link {
 	cursor: pointer;
 	/*box-shadow: rgba(136, 165, 191, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;*/
 }
+
 .ab-left {
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	animation: right 1.3s ease-in;
 	/*border-radius: 30px;*/
 }
+
 .active {
 	border-bottom: 1px solid #1DCA11;
 }
+
 /*-----------------------------------Contact------------------------------------*/
 .places div:hover {
 	color: #1DCA11;
 	cursor: pointer;
 }
+
 .contact {
 	background: url("/public/assets/footer.jpg");
 	height: 40vh;
 }
+
 .contact-form {
 	border-radius: 10px;
 	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 	animation: appear 1.5s ease-in;
 	/*border: 1px solid red;*/
 }
+
 input {
 	border: .5px solid gray;
 }
+
 input:focus, textarea:focus {
 	outline: 1px solid #1DCA11;
 	border: none;
 }
+
 textarea {
 	height: 45vh;
 	resize: none !important;
 }
+
 /*-----------------------------------Our Team------------------------------------*/
 
 .team-banner {
 	background: url("/public/assets/footer.jpg") !important;
 	height: 40vh;
 }
+
 .team-name:hover {
 	color: #00816f !important;
 }
+
 /*.card {*/
 /*	margin-right: 20px;*/
 /*}*/
@@ -244,6 +302,7 @@ textarea {
 		transform: translateY(0rem);
 	}
 }
+
 @keyframes left {
 	0% {
 		opacity: 0;
@@ -261,6 +320,7 @@ textarea {
 		transform: translateX(0rem);
 	}
 }
+
 @keyframes right {
 	0% {
 		opacity: 0;
@@ -278,6 +338,7 @@ textarea {
 		transform: translateX(0rem);
 	}
 }
+
 @keyframes down {
 	0% {
 		opacity: 0;

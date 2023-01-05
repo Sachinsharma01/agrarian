@@ -7,7 +7,7 @@ import {VscChromeClose} from "react-icons/vsc";
 
 const Header = () => {
     const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
-    const [active, setActive] = useState('home')
+    const [active, setActive] = useState(localStorage.getItem('active'))
     const setHandler = (active: any) => {
         setActive(active)
     }
@@ -24,25 +24,30 @@ const Header = () => {
                             <img src='/assets/logo.jpg' alt='agrarian'/>
                         </div>
                         <div className='col-md-11 col-2'>
-                            {!isMobile ? <div className='container text-center h-100'>
+                            {!isMobile ? <div className='container-fluid text-center h-100'>
                                     <ul className='row h-100'>
-                                        <li key={1} className='col-3'>
+                                        <li key={1} className='col-2'>
                                             <Link to='/' onClick={() => setHandler('home')} className='nav-link'><span
                                                 className='link'><span
                                                 className={active === 'home' ? 'active' : ''}>Home</span></span></Link>
                                         </li>
-                                        <li key={2} className='col-3'>
+                                        <li key={2} className='col-2'>
                                             <Link to='/about' onClick={() => setHandler('about')} className='nav-link'><span
                                                 className='link'><span className={active === 'about' ? 'active' : ''}>About Us</span></span></Link>
                                         </li>
-                                        <li key={3} className='col-3'><Link to='/team' onClick={() => setHandler('team')}
+                                        <li key={3} className='col-2'><Link to='/team/mentors' onClick={() => setHandler('mentors')}
                                                                             className='nav-link'><span
                                             className='link'><span
-                                            className={active === 'team' ? 'active' : ''}>Our Team</span></span></Link>
+                                            className={active === 'mentors' ? 'active' : ''}>Mentors</span></span></Link>
                                         </li>
-                                        <li key={4} className='col-3'><Link to='/contact' onClick={() => setHandler('contact')}
+                                        <li key={3} className='col-2'><Link to='/team' onClick={() => setHandler('team')}
                                                                             className='nav-link'><span
-                                            className='link'><span className={active === 'contact' ? 'active' : ''}>Contact Us</span></span>
+                                            className='link'><span
+                                            className={active === 'team' ? 'active' : ''}>Team</span></span></Link>
+                                        </li>
+                                        <li key={4} className='col-2'><Link to='/contact' onClick={() => setHandler('contact')}
+                                                                            className='nav-link'><span
+                                            className='link'><span className={active === 'contact' ? 'active' : ''}>Contact</span></span>
                                         </Link>
                                         </li>
                                     </ul>

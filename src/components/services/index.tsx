@@ -24,14 +24,14 @@ const Services = () => {
                                             <h5>Disease Diagnosis</h5>
                                             {/*<button>*/}
                                             <small className='s1-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s1-btn' to='/'
+                                            <Link className='s1-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                             {/*</button>*/}
                                         </div>
                                         <div className='col-6 text-center s2'>
                                             <h5>Farmer Community</h5>
                                             <small className='s2-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s2-btn' to='/'
+                                            <Link className='s2-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
@@ -43,13 +43,13 @@ const Services = () => {
                                         <div className='col-6 text-center s3'>
                                             <h5>Disease Diagnosis</h5>
                                             <small className='s3-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s3-btn' to='/'
+                                            <Link className='s3-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-end s4'>
                                             <h5>Farmer Community</h5>
                                             <small className='s4-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s4-btn' to='/'
+                                            <Link className='s4-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
@@ -61,13 +61,13 @@ const Services = () => {
                                         <div className='col-6 text-end s5'>
                                             <h5>Disease Diagnosis</h5>
                                             <small className='s5-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s5-btn' to='/'
+                                            <Link className='s5-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-center s6'>
                                             <h5>Farmer Community</h5>
                                             <small className='s6-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s6-btn' to='/'
+                                            <Link className='s6-btn' to='/about'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>

@@ -24,11 +24,12 @@ const Footer = () => {
                     <div className='col-md-3 mt-4'>
                         <h2>Quick Links</h2>
                         <div className='d-flex justify-content-center flex-column quick-links'>
-                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Home</Link>
-                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Contact</Link>
-                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>Our Team</Link>
-                            <Link to='/' style={{color: 'gray'}} className='text-decoration-none'>About</Link>
-                            
+                            <Link to='/' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Home</Link>
+                            <Link to='/contact' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Contact</Link>
+                            <Link to='/team' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Our Team</Link>
+                            <Link to='/about' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>About</Link>
+                            <Link to='/team/mentors' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Mentors</Link>
+
                         </div>
                     </div>
                     <div className='col-md-3 mt-4'>
@@ -44,11 +45,11 @@ const Footer = () => {
                 <div className='container mt-2'>
                     <div className='row'>
                         <div className='col-12 d-flex justify-content-center align-items-center gap-md-5 gap-3'>
-                            <a href='/'><FaFacebookSquare style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/'><FaTwitter style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/'><FaInstagram style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/'><FaYoutube style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/'><FaLinkedin style={{height: '50px', width: '50px', color: 'white'}}/></a>
+                            <a href='https://www.facebook.com/profile.php?id=100088894643348' target='_blank'><FaFacebookSquare style={{height: '50px', width: '50px', color: 'white'}}/></a>
+                            <a href='/' target='_blank'><FaTwitter style={{height: '50px', width: '50px', color: 'white'}}/></a>
+                            <a href='/' target='_blank'><FaInstagram style={{height: '50px', width: '50px', color: 'white'}}/></a>
+                            <a href='https://www.youtube.com/@Agrarian_The_Trust_For_Growth' target='_blank' ><FaYoutube style={{height: '50px', width: '50px', color: 'white'}}/></a>
+                            <a href='https://www.linkedin.com/in/agrarian-the-trust-for-growth-ab5969260' target='_blank'><FaLinkedin style={{height: '50px', width: '50px', color: 'white'}}/></a>
                         </div>
                     </div>
                 </div>

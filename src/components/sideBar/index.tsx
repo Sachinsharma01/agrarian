@@ -8,7 +8,7 @@ const SideBar = ({setOpen}: any) => {
                 <ul className='col-12 container h-100 d-flex justify-content-center align-items-center flex-column text-center'>
                     <li className='col-12 side-link my-4'>
                         <Link to='/' onClick={() => setOpen()} className='nav-link'><span
-                        className='link'><span>Home</span></span></Link>
+                            className='link'><span>Home</span></span></Link>
                     </li>
                     <li className='col-12 side-link my-4'>
                         <Link to='/about' onClick={() => setOpen()} className='nav-link'><span
@@ -16,7 +16,11 @@ const SideBar = ({setOpen}: any) => {
                     </li>
                     <li className='col-12 side-link my-4'>
                         <Link to='/team' onClick={() => setOpen()} className='nav-link'><span
-                            className='link'><span>Our Team</span></span></Link>
+                            className='link'><span>Team</span></span></Link>
+                    </li>
+                    <li className='col-12 side-link my-4'>
+                        <Link to='/team/mentors' onClick={() => setOpen()} className='nav-link'><span
+                            className='link'><span>Mentors</span></span></Link>
                     </li>
                     <li className='col-12 side-link my-4'>
                         <Link to='/contact' onClick={() => setOpen()} className='nav-link'><span

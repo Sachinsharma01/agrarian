@@ -10,6 +10,8 @@ import AboutUs from "./pages/about";
 import Team from "./pages/team";
 import TeamMemberProfileInfo from "./pages/team/TeamMemberProfileInfo";
 import Contact from "./pages/contact";
+import Mentors from "./pages/mentors";
+import {Toaster} from "react-hot-toast";
 
 
 function App() {
@@ -25,16 +27,26 @@ function App() {
                         <AboutUs/>
                     </Route>
                     <Route path='/team' exact>
-                        <Team />
+                        <Team/>
+                    </Route>
+                    <Route path='/team/mentors' exact>
+                        <Mentors/>
                     </Route>
                     <Route path='/team/profile/:name' exact>
-                        <TeamMemberProfileInfo />
+                        <TeamMemberProfileInfo/>
                     </Route>
                     <Route path='/contact' exact>
-                        <Contact />
+                        <Contact/>
+                    </Route>
+                    <Route path='*' exact>
+                        <Home/>
                     </Route>
                 </Switch>
             </div>
+            <Toaster containerStyle={{
+                top: 100
+            }
+            }/>
             <Footer/>
             {/*<TopBar/>*/}
         </>

@@ -5,6 +5,7 @@ import About from "../../components/About";
 
 const Home = () => {
     document.title = 'Agrarian | The Trust Of Growth'
+    localStorage.setItem('active', 'home');
     return (
         <div className='container-fluid'>
             <div className='row'>

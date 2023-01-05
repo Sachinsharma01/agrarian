@@ -52,9 +52,39 @@ const Banner = () => {
                     src={!isMobile ? "assets/h2-slide1.jpg" : "/assets/current-pro1.jpg"}
                     alt="First slide"
                 />
-                <Carousel.Caption>
-
-
+                <Carousel.Caption className='banner-text'>
+                    <h3>Women Empowerment IN Agriculture</h3>
+                    {!isMobile ?
+                        (
+                            <><p>In India, 85% of rural women are engaged in agriculture, yet only about 13% own land.
+                                The situation is
+                                worse in Bihar with only 7% women having land rights, though women play an important
+                                role in various
+                                agricultural activities.
+                                While seeds are sown and harvesting is carried, women farmers work for about 3,300 hours
+                                which is
+                                almost double that of male farmers who contribute 1,860 hours, as per a report by a
+                                leading
+                                international group. Women comprise the most of small and marginal farmers. Despite
+                                their
+                                contribution being high over male counterparts, their access to the market is low. They
+                                are either paid
+                                less or unpaid as they do not own much land.</p>
+                            </>) :
+                        <>
+                            (<p>
+                            In India, 85% of rural women are engaged in agriculture, yet only about 13% own land. The
+                            situation is
+                            worse in Bihar with only 7% women having land rights, though women play an important role in
+                            various
+                            agricultural activities.
+                            </p>
+                            <button style={{background: '#1DCA11', color: '#ffff'}} className='btn read-more'>Read
+                                More
+                            </button>
+                            )
+                        </>
+                    }
                 </Carousel.Caption>
             </Carousel.Item>
             <Carousel.Item>
@@ -64,9 +94,15 @@ const Banner = () => {
                     alt="Third slide"
                 />
                 <Carousel.Caption>
-                    <h3>Third slide label</h3>
+                    <h3>Micro-entrepreneurship</h3>
                     <p>
-                        Praesent commodo cursus magna, vel scelerisque nisl consectetur.
+                        The second highest employment provider
+                        Right after Agriculture, the MSE sector provides numerous employment opportunities.
+                        * India’s handicrafts have been booming
+                        Handicrafts have witnessed an increase in exports despite the pandemic. This is the power of the
+                        rural population and the micro and small entrepreneurs.
+                        Our target group
+                        *
                     </p>
                 </Carousel.Caption>
             </Carousel.Item>

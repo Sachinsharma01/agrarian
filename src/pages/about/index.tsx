@@ -4,6 +4,7 @@ import Mission from "../../components/mission";
 import Mentor from "../../components/team/mentor";
 
 const AboutUs = () => {
+    localStorage.setItem('active', 'about');
     return (
         <>
             <div className="container-fluid aboutus mt-4">
