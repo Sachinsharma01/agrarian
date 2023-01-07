@@ -11,6 +11,10 @@ const SideBar = ({setOpen}: any) => {
                             className='link'><span>Home</span></span></Link>
                     </li>
                     <li className='col-12 side-link my-4'>
+                        <Link to='/services' onClick={() => setOpen()} className='nav-link'><span
+                            className='link'><span>Services</span></span></Link>
+                    </li>
+                    <li className='col-12 side-link my-4'>
                         <Link to='/about' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>About Us</span></span></Link>
                     </li>
