@@ -9,6 +9,8 @@
 body {
 	color: #002639;
 	scroll-behavior: smooth;
+	letter-spacing: normal;
+	font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
 }
 
 
@@ -34,6 +36,8 @@ footer h2, footer Link {
 .sidebar {
 	z-index: 999;
 	background: white;
+	scroll-behavior: smooth;
+	height: 90vh!important;
 }
 
 ul {
@@ -282,6 +286,13 @@ textarea {
 .team-name:hover {
 	color: #00816f !important;
 }
+.job {
+	transition: 1.2s ease-in;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;;
+}
+.jobHover:hover {
+	transform: scale(1.1);
+}
 
 /*.card {*/
 /*	margin-right: 20px;*/
@@ -302,7 +313,6 @@ textarea {
 		transform: translateY(0rem);
 	}
 }
-
 @keyframes left {
 	0% {
 		opacity: 0;

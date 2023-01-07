@@ -26,6 +26,10 @@ const SideBar = ({setOpen}: any) => {
                         <Link to='/contact' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Contact Us</span></span></Link>
                     </li>
+                    <li className='col-12 side-link my-4'>
+                        <Link to='/careers' onClick={() => setOpen()} className='nav-link'><span
+                            className='link'><span>Careers</span></span></Link>
+                    </li>
                 </ul>
             </div>
         </div>

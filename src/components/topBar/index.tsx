@@ -1,42 +1,23 @@
-import React, {useEffect, useState} from 'react';
+import React from 'react';
+import {Link} from "react-router-dom";
+import Marquee from "react-fast-marquee";
 
 const TopBar = () => {
-    const [cordinates, setCordinates] = useState({
-        lat: 0,
-        long: 0
-    });
-    useEffect( () => {
-        const getLocation = async () => {
-            if (!navigator.geolocation) {
-                alert('Geolocation is not supported by your browser');
-            } else {
-                navigator.geolocation.getCurrentPosition((position) => {
-                    setCordinates({
-                        lat: position.coords.latitude,
-                        long: position.coords.longitude
-                    })
-                }, () => {
-                    alert('Unable to retrieve your location');
-                });
-            }
-        }
-        const getData = async () => {
-            let API = '2deacdcaa777e9ca65f5b9633d0b1b02';
-            const data = await fetch(`https://api.openweathermap.org/data/2.5/weather?lat=${cordinates.lat}&lon=${cordinates.long}&appid=${API}&units=metric}`)
-            console.log(data)
-        }
-        const a = getLocation();
-        const d = getData()
-    }, [])
-    console.log(cordinates)
+    // @ts-ignore
     return (
-        <div className='topbar'>
-            <strong>
-                Humidity: {}
-                Temperature: {}
-            </strong>
-        </div>
+        <>
+            <div className="container" style={{width: '100vw', height: '30px', color: '#1dca11'}}>
+                <div className="row">
+                    <div className="col-12">
+                        <Marquee>
+
+                            <p>If You are Have an Entrepreneur Mindset and skills then join our team and make society a
+                                better place, We are hiring <Link to='/careers' target='_blank'> click here</Link> to know more</p>
+                        </Marquee>
+                    </div>
+                </div>
+            </div>
+        </>
     )
 }
-
 export default TopBar;

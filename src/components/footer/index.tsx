@@ -29,6 +29,7 @@ const Footer = () => {
                             <Link to='/team' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Our Team</Link>
                             <Link to='/about' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>About</Link>
                             <Link to='/team/mentors' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Mentors</Link>
+                            <Link to='/careers' target='_blank' style={{color: 'gray'}} className='text-decoration-none'>Careers</Link>
 
                         </div>
                     </div>

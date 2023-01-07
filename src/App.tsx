@@ -12,6 +12,8 @@ import TeamMemberProfileInfo from "./pages/team/TeamMemberProfileInfo";
 import Contact from "./pages/contact";
 import Mentors from "./pages/mentors";
 import {Toaster} from "react-hot-toast";
+import Careers from "./pages/careers";
+import ServicesPage from "./pages/services";
 
 
 function App() {
@@ -37,6 +39,12 @@ function App() {
                     </Route>
                     <Route path='/contact' exact>
                         <Contact/>
+                    </Route>
+                    <Route path='/careers' exact>
+                        <Careers/>
+                    </Route>
+                    <Route path='/services' exact>
+                        <ServicesPage/>
                     </Route>
                     <Route path='*' exact>
                         <Home/>
