@@ -37,7 +37,7 @@ footer h2, footer Link {
 	z-index: 999;
 	background: white;
 	scroll-behavior: smooth;
-	height: 90vh!important;
+	/*height: 100vh!important;*/
 }
 
 ul {
