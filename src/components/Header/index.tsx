@@ -45,7 +45,7 @@ const Header = () => {
                                             </Link>
                                             </li>
                                             <li key={3} className='col-2 header-inner-span'>
-                                                <div className=''
+                                                <div className='header-head'
                                                      onClick={() => setInnerHeaderOpen(!innerHeaderOpen)}
                                                      >Team <IoIosArrowDown />
                                                 </div>
