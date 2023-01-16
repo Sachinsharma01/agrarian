@@ -4,6 +4,7 @@ import {RxHamburgerMenu} from 'react-icons/rx'
 import {useQuery} from "../../hooks/useQuery";
 import SideBar from "../sideBar";
 import {VscChromeClose} from "react-icons/vsc";
+import {IoIosArrowDown} from 'react-icons/io'
 import TopBar from "../topBar";
 
 const Header = () => {
@@ -46,7 +47,7 @@ const Header = () => {
                                             <li key={3} className='col-2 header-inner-span'>
                                                 <div className=''
                                                      onClick={() => setInnerHeaderOpen(!innerHeaderOpen)}
-                                                     >Team
+                                                     >Team <IoIosArrowDown />
                                                 </div>
                                                 {innerHeaderOpen && <div className='header-inner rounded-3'>
                                                     <Link to='/team/mentors' target='_blank'
