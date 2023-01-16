@@ -6,33 +6,37 @@ const SideBar = ({setOpen}: any) => {
         <div className='container-fluid sidebar'>
             <div className='row h-100 '>
                 <ul className='col-12 container h-100 d-flex justify-content-center align-items-center flex-column text-center'>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link my-1'>
                         <Link to='/' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Home</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-4'>
+                    <li className='col-12 side-link my-1'>
                         <Link to='/services' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Services</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link my-1'>
                         <Link to='/about' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>About Us</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link my-1'>
                         <Link to='/team' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Team</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link my-1'>
                         <Link to='/team/mentors' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Mentors</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link'>
                         <Link to='/contact' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Contact Us</span></span></Link>
                     </li>
-                    <li className='col-12 side-link my-2'>
+                    <li className='col-12 side-link'>
                         <Link to='/careers' onClick={() => setOpen()} className='nav-link'><span
                             className='link'><span>Careers</span></span></Link>
+                    </li>
+                    <li className='col-12 side-link'>
+                        <Link to='/blogs' onClick={() => setOpen()} className='nav-link'><span
+                            className='link'><span>Blog</span></span></Link>
                     </li>
                 </ul>
             </div>

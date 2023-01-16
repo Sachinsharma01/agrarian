@@ -1,8 +1,10 @@
 import React from 'react';
 import {FaFacebookSquare, FaTwitter, FaInstagram, FaYoutube, FaLinkedin} from 'react-icons/fa'
 import {Link} from "react-router-dom";
+import {useQuery} from "../../hooks/useQuery";
 
 const Footer = () => {
+    const isMobile = useQuery()
     return (
         <>
             <footer className='container-fluid mt-4 footer'>
@@ -19,7 +21,7 @@ const Footer = () => {
                             inputs
                             and farmers get benifited.provide knowledge for systematic crops cultovation :- our team
                             provide knowledge for maximum
-                            land use system and how to grow more then one crop in single peace of land</p>
+                            land use system and how to grow more then one crop in single peace of land.</p>
                     </div>
                     <div className='col-md-3 mt-4'>
                         <h2>Quick Links</h2>
@@ -33,13 +35,13 @@ const Footer = () => {
 
                         </div>
                     </div>
-                    <div className='col-md-3 mt-4'>
+                    <div className='col-md-3 mt-4 text-wrap'>
                         <h2>Contact Us</h2>
                         <p>
                             Contact No:- (+91) 8809140983<br/>
-                            Email Id:- agrarianthetrustforgrowth@gmail.com<br/>
+                            {isMobile ? 'agrarianthetrust forgrowth@gmail.com' : 'Email: agrarianthetrustforgrowth@gmail.com' }<br/>
                             AGRARIAN The Trust For Growth<br/>
-                            17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406<br/>
+                            17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406.<br/>
                         </p>
                     </div>
                 </div>

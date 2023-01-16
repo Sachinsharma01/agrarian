@@ -59,11 +59,11 @@ const Header = () => {
                                                 className={active === 'contact' ? 'active' : ''}>Contact</span></span>
                                             </Link>
                                             </li>
-                                            <li key={4} className='col-2'><Link to='/careers'
+                                            <li key={4} className='col-2'><Link to='/services'
                                                                                 onClick={() => setHandler('careers')}
                                                                                 className='nav-link'><span
                                                 className='link'><span
-                                                className={active === 'careers' ? 'active' : ''}>Careers</span></span>
+                                                className={active === 'services' ? 'active' : ''}>Services</span></span>
                                             </Link>
                                             </li>
                                         </ul>

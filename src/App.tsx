@@ -14,6 +14,8 @@ import Mentors from "./pages/mentors";
 import {Toaster} from "react-hot-toast";
 import Careers from "./pages/careers";
 import ServicesPage from "./pages/services";
+import Blog from "./pages/blogs";
+import Agriculture from "./pages/blogs/Agriculture";
 
 
 function App() {
@@ -45,6 +47,15 @@ function App() {
                     </Route>
                     <Route path='/services' exact>
                         <ServicesPage/>
+                    </Route>
+                    <Route path='/blogs' exact>
+                        <Blog />
+                    </Route>
+                    <Route path='/blogs/agriculture' exact>
+                        <Agriculture />
+                    </Route>
+                    <Route path='/blogs' exact>
+                        <Blog />
                     </Route>
                     <Route path='*' exact>
                         <Home/>

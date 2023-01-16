@@ -121,7 +121,9 @@ Link {
 	text-align: justify;
 	color: rgb(177, 177, 177);
 }
-
+.more {
+	text-align: justify;
+}
 .footer Link {
 	padding: 0;
 	margin: 0;

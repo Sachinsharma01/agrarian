@@ -11,7 +11,7 @@ const Services = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='text-center'><span className='fs-1'>Solutions We Offer</span></div>
-                    <p className='text-center'>We strive to continuously provide customizable, affordable and quality products & services to our patrons through our creative & skilled teams who demonstrate an inherent agility towards projects</p>
+                    <p className='text-center'>We strive to continuously provide customizable, affordable and quality products & services to our patrons through our creative & skilled teams who demonstrate an inherent agility towards projects.</p>
                     {!isMobile ?<div className='container ser mt-3 mb-3 d-flex justify-content-center align-items-center'>
                          <div className='row h-75 service'>
                             {/*<div className='col-12 h-50 text-center'>*/}
@@ -24,14 +24,14 @@ const Services = () => {
                                             <h5>Micro Entrepreneurship</h5>
                                             {/*<button>*/}
                                             <small className='s1-btn'>Micro Entrepreneurship</small>
-                                            <Link className='s1-btn' to='/about'
+                                            <Link className='s1-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                             {/*</button>*/}
                                         </div>
                                         <div className='col-6 text-center s2'>
                                             <h5>Disease Diagnosis</h5>
                                             <small className='s2-btn'>Full Crop Disease Diagnosis</small>
-                                            <Link className='s2-btn' to='/about'
+                                            <Link className='s2-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
@@ -43,13 +43,13 @@ const Services = () => {
                                         <div className='col-6 text-center s3'>
                                             <h5>Women Empowerment</h5>
                                             <small className='s3-btn'>Women Empowerment in Agriculture</small>
-                                            <Link className='s3-btn' to='/about'
+                                            <Link className='s3-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-end s4'>
                                             <h5>Farmer Community</h5>
                                             <small className='s4-btn'>Farmer Community and help</small>
-                                            <Link className='s4-btn' to='/about'
+                                            <Link className='s4-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>
@@ -61,13 +61,13 @@ const Services = () => {
                                         <div className='col-6 text-end s5'>
                                             <h5>Drone Tracking</h5>
                                             <small className='s5-btn'>Full Land Crop Tracking</small>
-                                            <Link className='s5-btn' to='/about'
+                                            <Link className='s5-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                         <div className='col-6 text-center s6'>
                                             <h5>Seasonal Crop Education</h5>
                                             <small className='s6-btn'>Education on Crop Seasoning</small>
-                                            <Link className='s6-btn' to='/about'
+                                            <Link className='s6-btn' to='/services' target='_blank'
                                                   style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                         </div>
                                     </div>

@@ -45,7 +45,7 @@ const About = () => {
                                 the farmer by providing them with complete knowledge about the
                                 Cultivation, Control , Cure and Management of the crops.
                                 Via this we also provide them basic Agriculture inputs at farmers
-                                door step with effective price. like Seeds, Fertilizer,Insecticide, <br/>
+                                door step with effective price. like Seeds, Fertilizer,Insecticide, pesticides etc. <br/>
                                 <Link to='/about' target='_blank' className="read-btn btn btn-primary mt-3">Read
                                     More</Link>
                             </p>

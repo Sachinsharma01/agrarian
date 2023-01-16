@@ -55,17 +55,18 @@ const Home = () => {
                                                     coastline of over 7,500 km. India is a diverse country where over 22 major languages and 415 dialects
                                                     are spoken. With the highest mountain range in the world, the Himalayas to its North, the Thar desert
                                                     to its West, the Gangetic delta to its East and the Deccan Plateau in the South, the country is home to
-                                                    vast agro-ecological diversity.
-                                                    Major economic pillar:- Around 65–70%% of the Indian population (directly or indirectly) depends
-                                                    upon the Agriculture sector and currently, it contributes to 16–17% of the GDP in the Indian economy.<br/>
+                                                    vast agro-ecological diversity.<br/>
+                                                    <strong>Major economic pillar:- </strong> Around 65–70%% of the Indian population (directly or indirectly) depends
+                                                    upon the Agriculture sector and currently, it contributes to 16–17% of the GDP in the Indian economy.<br/><br/>
 
+                                                    <strong>Major Crops </strong>
                                                     Area of cultivation of rice
                                                     45.1m ha
                                                     Area of cultivation of wheat
                                                     31.6m ha
                                                     Area of cultivation of pulses.
-                                                    29 m ha
-                                                    Livelihoods and food security for many
+                                                    29 m ha<br /> <br/>
+                                                    <strong>Livelihoods and food security for many </strong>
                                                     Concerning Indian Agriculture provides livelihood to nearly 70% of the workforce. It also contributes
                                                     immensely to the food security of the nation as it is the top producer of many crops.
                                                     Good quality of seeds and new technologies is not reaching the farmers.
@@ -75,6 +76,35 @@ const Home = () => {
                                             </div>
                                             {/*{!isMobile && (*/}
                                             {/*)}*/}
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div className="col-12">
+                    <div className="container-fluid">
+                        <div className="container">
+                            <div className="row">
+                                <div className="container-fluid">
+                                    <div className="container">
+                                        <div className="row">
+                                            <div className="col-12 text-center mt-2">
+                                                <span className='fs-1'>The Issue On The Ground</span>
+                                            </div>
+                                            <div className="col-12 text-wrap more">
+                                                <p>
+                                                    Unavailability of quality inputs:- Good quality of seeds and new technologies is not reaching the farmers.
+                                                    The quality of soil is degraded due to
+                                                    contamination from the overuse of pesticides and fertilizers for decades.
+                                                    - Not many have access to opt for mechanization, also
+                                                    poor soil quality and varying climatic conditions
+                                                    Due to unavailability of good market farmers sells their
+                                                    harvest product in low price and middle man get benifited. so need good market facilities in every
+                                                    district.
+                                                </p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
