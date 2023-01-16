@@ -23,7 +23,18 @@ footer h2, footer Link {
 	color: rgb(180, 180, 180) !important;
 }
 
-/* -----------------------------------Header-------------------------------------- */
+/* --------------------------   ---------Header-------------------------------------- */
+.header-inner-span {
+	position: relative;
+}
+.header-inner {
+	display: inline-block;
+	position: absolute;
+	left: 20%;
+	background: #fff;
+	width: 150px;
+}
+
 .header {
 	box-shadow: rgba(17, 12, 46, 0.15) 0px 48px 100px 0px;
 	z-index: 99999;
@@ -51,12 +62,16 @@ ul {
 	transition: transform .3s ease-in-out;
 }
 
-.team-hover {
+.team-hover, .inner-link {
 	outline: none;
 	border: none;
 	transition: transform .3s ease-in-out;
 }
-
+.inner-link:hover {
+	cursor: pointer;
+	border-bottom: 1.5px solid #1DCA11;
+	transform: scale(1.1);
+}
 .team-hover * {
 	background: white;
 	height: 50px;

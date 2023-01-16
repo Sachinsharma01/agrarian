@@ -15,7 +15,7 @@ const About = () => {
                             <p className="" style={{textAlign: "justify", fontWeight: '400'}}>
                                 AGRARIAN The Trust For Growth was established in 2021, with
                                 the objective of renewing the agriculture sector and working at
-                                the grass-root level, in the fields of Agriculture, microentrepreneurship, sanitation,
+                                the grass-root level, in the fields of Agriculture, micro-entrepreneurship, sanitation,
                                 and health and education.
                                 After supporting several initiatives and running multiple programs
                                 in the State of Bihar and Uttar Pradesh, Bihar and Uttar Pradesh

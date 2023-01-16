@@ -9,6 +9,8 @@ import TopBar from "../topBar";
 const Header = () => {
     const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
     const [active, setActive] = useState(localStorage.getItem('active'))
+    const [innerHeaderOpen, setInnerHeaderOpen] = useState(false);
+    console.log("Hover", innerHeaderOpen)
     const setHandler = (active: any) => {
         setActive(active)
     }
@@ -34,35 +36,43 @@ const Header = () => {
                                                     className='link'><span
                                                     className={active === 'home' ? 'active' : ''}>Home</span></span></Link>
                                             </li>
-                                            <li key={4} className='col-2'><Link to='/services'
-                                                                                onClick={() => setHandler('careers')}
+                                            <li key={2} className='col-2'><Link to='/services'
+                                                                                onClick={() => setHandler('services')}
                                                                                 className='nav-link'><span
                                                 className='link'><span
                                                 className={active === 'services' ? 'active' : ''}>Services</span></span>
                                             </Link>
                                             </li>
-                                            <li key={3} className='col-2'><Link to='/team/mentors'
-                                                                                onClick={() => setHandler('mentors')}
-                                                                                className='nav-link'><span
-                                                className='link'><span
-                                                className={active === 'mentors' ? 'active' : ''}>Mentors</span></span></Link>
+                                            <li key={3} className='col-2 header-inner-span'>
+                                                <div className=''
+                                                     onClick={() => setInnerHeaderOpen(!innerHeaderOpen)}
+                                                     >Team
+                                                </div>
+                                                {innerHeaderOpen && <div className='header-inner rounded-3'>
+                                                    <Link to='/team/mentors' target='_blank'
+                                                          className='text-decoration-none text-dark inner-link'><span>Mentors</span></Link><br/>
+                                                    <Link to='/team' target='_blank'
+                                                          className='text-decoration-none text-dark inner-link'><span>Team</span></Link>
+                                                </div>}
                                             </li>
-                                            <li key={3} className='col-2'><Link to='/team'
-                                                                                onClick={() => setHandler('team')}
-                                                                                className='nav-link'><span
-                                                className='link'><span
-                                                className={active === 'team' ? 'active' : ''}>Team</span></span></Link>
-                                            </li>
-                                            <li key={2} className='col-2'>
+                                            <li key={4} className='col-2'>
                                                 <Link to='/about' onClick={() => setHandler('about')}
                                                       className='nav-link'><span
-                                                    className='link'><span className={active === 'about' ? 'active' : ''}>About</span></span></Link>
+                                                    className='link'><span
+                                                    className={active === 'about' ? 'active' : ''}>About</span></span></Link>
                                             </li>
-                                            <li key={4} className='col-2'><Link to='/contact'
+                                            <li key={5} className='col-2'><Link to='/contact'
                                                                                 onClick={() => setHandler('contact')}
                                                                                 className='nav-link'><span
                                                 className='link'><span
                                                 className={active === 'contact' ? 'active' : ''}>Contact</span></span>
+                                            </Link>
+                                            </li>
+                                            <li key={6} className='col-2'><Link to='/blogs'
+                                                                                onClick={() => setHandler('blogs')}
+                                                                                className='nav-link'><span
+                                                className='link'><span
+                                                className={active === 'blogs' ? 'active' : ''}>Blog</span></span>
                                             </Link>
                                             </li>
 
