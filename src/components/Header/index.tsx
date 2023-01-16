@@ -34,11 +34,12 @@ const Header = () => {
                                                     className='link'><span
                                                     className={active === 'home' ? 'active' : ''}>Home</span></span></Link>
                                             </li>
-
-                                            <li key={2} className='col-2'>
-                                                <Link to='/about' onClick={() => setHandler('about')}
-                                                      className='nav-link'><span
-                                                    className='link'><span className={active === 'about' ? 'active' : ''}>About Us</span></span></Link>
+                                            <li key={4} className='col-2'><Link to='/services'
+                                                                                onClick={() => setHandler('careers')}
+                                                                                className='nav-link'><span
+                                                className='link'><span
+                                                className={active === 'services' ? 'active' : ''}>Services</span></span>
+                                            </Link>
                                             </li>
                                             <li key={3} className='col-2'><Link to='/team/mentors'
                                                                                 onClick={() => setHandler('mentors')}
@@ -52,6 +53,11 @@ const Header = () => {
                                                 className='link'><span
                                                 className={active === 'team' ? 'active' : ''}>Team</span></span></Link>
                                             </li>
+                                            <li key={2} className='col-2'>
+                                                <Link to='/about' onClick={() => setHandler('about')}
+                                                      className='nav-link'><span
+                                                    className='link'><span className={active === 'about' ? 'active' : ''}>About</span></span></Link>
+                                            </li>
                                             <li key={4} className='col-2'><Link to='/contact'
                                                                                 onClick={() => setHandler('contact')}
                                                                                 className='nav-link'><span
@@ -59,13 +65,7 @@ const Header = () => {
                                                 className={active === 'contact' ? 'active' : ''}>Contact</span></span>
                                             </Link>
                                             </li>
-                                            <li key={4} className='col-2'><Link to='/services'
-                                                                                onClick={() => setHandler('careers')}
-                                                                                className='nav-link'><span
-                                                className='link'><span
-                                                className={active === 'services' ? 'active' : ''}>Services</span></span>
-                                            </Link>
-                                            </li>
+
                                         </ul>
                                     </div> :
                                     <button className='btn' onClick={() => setIsSideBarOpen(v => !v)}>
