@@ -5,7 +5,6 @@ import {useQuery} from "../../hooks/useQuery";
 import SideBar from "../sideBar";
 import {VscChromeClose} from "react-icons/vsc";
 import {IoIosArrowDown} from 'react-icons/io'
-import TopBar from "../topBar";
 
 const Header = () => {
     const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
@@ -22,7 +21,7 @@ const Header = () => {
     return (
         <>
             <nav className='container-fluid header'>
-                {!isMobile && <TopBar/>}
+                {/*{!isMobile && <TopBar/>}*/}
                 <div className='container-fluid'>
                     <div className='container-fluid'>
                         <div className='row'>
