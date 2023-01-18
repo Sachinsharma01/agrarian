@@ -313,6 +313,9 @@ textarea {
 .jobHover:hover {
 	transform: scale(1.1);
 }
+.blog {
+	text-align: justify;
+}
 
 /*.card {*/
 /*	margin-right: 20px;*/

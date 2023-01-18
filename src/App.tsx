@@ -16,6 +16,7 @@ import Careers from "./pages/careers";
 import ServicesPage from "./pages/services";
 import Blog from "./pages/blogs";
 import Agriculture from "./pages/blogs/Agriculture";
+import BlogPage from "./pages/blogs/BlogPage";
 
 
 function App() {
@@ -54,8 +55,8 @@ function App() {
                     <Route path='/blogs/agriculture' exact>
                         <Agriculture />
                     </Route>
-                    <Route path='/blogs' exact>
-                        <Blog />
+                    <Route path='/blogs/agrarian' exact>
+                        <BlogPage />
                     </Route>
                     <Route path='*' exact>
                         <Home/>
