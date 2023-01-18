@@ -1,5 +1,4 @@
 import React from "react";
-import {useQuery} from "../../hooks/useQuery";
 import {Link} from "react-router-dom";
 
 const About = () => {
