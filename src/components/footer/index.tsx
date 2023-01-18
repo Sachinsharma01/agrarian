@@ -52,16 +52,16 @@ const Footer = () => {
                 <div className='container mt-2'>
                     <div className='row'>
                         <div className='col-12 d-flex justify-content-center align-items-center gap-md-5 gap-3'>
-                            <a href='https://www.facebook.com/profile.php?id=100088894643348'
+                            <a  rel="noreferrer" href='https://www.facebook.com/profile.php?id=100088894643348'
                                target='_blank'><FaFacebookSquare
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/' target='_blank'><FaTwitter
+                            <a  rel="noreferrer" href='/' target='_blank'><FaTwitter
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='/' target='_blank'><FaInstagram
+                            <a  rel="noreferrer" href='/' target='_blank'><FaInstagram
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='https://www.youtube.com/@Agrarian_The_Trust_For_Growth' target='_blank'><FaYoutube
+                            <a  rel="noreferrer" href='https://www.youtube.com/@Agrarian_The_Trust_For_Growth' target='_blank'><FaYoutube
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a href='https://www.linkedin.com/in/agrarian-the-trust-for-growth-ab5969260'
+                            <a  rel="noreferrer" href='https://www.linkedin.com/in/agrarian-the-trust-for-growth-ab5969260'
                                target='_blank'><FaLinkedin style={{height: '50px', width: '50px', color: 'white'}}/></a>
                         </div>
                     </div>

@@ -3,7 +3,6 @@ import {useQuery} from "../../hooks/useQuery";
 import {Link} from "react-router-dom";
 
 const About = () => {
-    const isMobile = useQuery();
     return (
         <>
             <div className="container-fluid mt-5 ab">
