@@ -11,7 +11,7 @@ const Services = () => {
             <div className='container'>
                 <div className='row'>
                     <div className='text-center'><span className='fs-1'>Solutions We Offer</span></div>
-                    <p className='text-center'>We strive to continuously provide customizable, affordable and quality products & services to our patrons through our creative & skilled teams who demonstrate an inherent agility towards projects.</p>
+                    <p className='text-center'>We strive to continuously provide customizable, affordable and quality products & services to our patrons through our creative & skilled team who demonstrate an inherent agility towards projects.</p>
                     {!isMobile ?<div className='container ser mt-3 mb-3 d-flex justify-content-center align-items-center'>
                          <div className='row h-75 service'>
                             {/*<div className='col-12 h-50 text-center'>*/}

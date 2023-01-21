@@ -39,7 +39,8 @@ const Home = () => {
                                 <div className="container-fluid mt-5 ab">
                                     <div className="container">
                                         <div className="row">
-                                            <div className="rounded-3 col-md-6 d-flex justify-content-center align-items-center">
+                                            <div
+                                                className="rounded-3 col-md-6 d-flex justify-content-center align-items-center">
                                                 <img
                                                     src="/assets/farmers.jpg"
                                                     height="90%"
@@ -48,30 +49,39 @@ const Home = () => {
                                                 />
                                             </div>
                                             <div className="col-md-6">
-                                                <h3 className="about" style={{ fontFamily: "fantasy" }}>India At Glance</h3>
-                                                <p className="" style={{ textAlign: "justify", fontWeight: '400' }}>
-                                                    <small style={{fontSize: '30px', fontWeight: '400'}}>W</small>ith a population of 1.27 billion India is the world's second most populous
-                                                    country. It is the seventh largest country in the world with an area of 3.288 million sq km. It has a long
-                                                    coastline of over 7,500 km. India is a diverse country where over 22 major languages and 415 dialects
-                                                    are spoken. With the highest mountain range in the world, the Himalayas to its North, the Thar desert
-                                                    to its West, the Gangetic delta to its East and the Deccan Plateau in the South, the country is home to
-                                                    vast agro-ecological diversity.<br/>
-                                                    <strong>Major economic pillar:- </strong> Around 65–70%% of the Indian population (directly or indirectly) depends
-                                                    upon the Agriculture sector and currently, it contributes to 16–17% of the GDP in the Indian economy.<br/><br/>
+                                                <h3 className="about" style={{fontFamily: "fantasy"}}>India At
+                                                    Glance</h3>
+                                                <p className="" style={{textAlign: "justify", fontWeight: '400'}}>
+                                                    <small style={{fontSize: '30px', fontWeight: '400'}}>W</small>ith a
+                                                    population of 1.27 billion India is the world's second most populous
+                                                    country. It is the seventh largest country in the world with an area
+                                                    of 3.288 million sq km. It has a long
+                                                    coastline of over 7,500 km. India is a diverse country where over 22
+                                                    major languages and 415 dialects
+                                                    are spoken. With the highest mountain range in the world, the
+                                                    Himalayas to its North, the Thar desert
+                                                    to its West, the Gangetic delta to its East and the Deccan Plateau
+                                                    in the South, the country is home to
+                                                    vast agro-ecological diversity.<br/><br/>
+                                                    <strong>Major economic pillar:- </strong> Around 65–70%% of the
+                                                    Indian population (directly or indirectly) depends
+                                                    upon the Agriculture sector and currently, it contributes to 16–17%
+                                                    of the GDP in the Indian economy.<br/><br/>
 
-                                                    <strong>Major Crops </strong>
-                                                    Area of cultivation of rice
-                                                    45.1m ha
-                                                    Area of cultivation of wheat
-                                                    31.6m ha
-                                                    Area of cultivation of pulses.
-                                                    29 m ha<br /> <br/>
+                                                    <strong>Major Crops:- </strong><br/>
+                                                    1. Area of cultivation of Rice 45.1 Million/Ha.<br/>
+                                                    2. Area of cultivation of Wheat 31.6 Million/Ha.<br/>
+                                                    3. Area of cultivation of Pulses 29 Million/Ha.<br/> <br/>
                                                     <strong>Livelihoods and food security for many </strong>
-                                                    Concerning Indian Agriculture provides livelihood to nearly 70% of the workforce. It also contributes
-                                                    immensely to the food security of the nation as it is the top producer of many crops.
-                                                    Good quality of seeds and new technologies is not reaching the farmers.
+                                                    Concerning Indian Agriculture provides livelihood to nearly 70% of
+                                                    the workforce. It also contributes
+                                                    immensely to the food security of the nation as it is the top
+                                                    producer of many crops.
+                                                    Good quality of seeds and new technologies is not reaching the
+                                                    farmers.
                                                     The quality of soil is degraded due to
-                                                    contamination from the overuse of pesticides and fertilizers for decades.
+                                                    contamination from the overuse of pesticides and fertilizers for
+                                                    decades.
                                                 </p>
                                             </div>
                                             {/*{!isMobile && (*/}
@@ -95,13 +105,16 @@ const Home = () => {
                                             </div>
                                             <div className="col-12 text-wrap more">
                                                 <p>
-                                                    Unavailability of quality inputs:- Good quality of seeds and new technologies is not reaching the farmers.
+                                                    Unavailability of quality inputs:- Good quality of seeds and new
+                                                    technologies is not reaching the farmers.
                                                     The quality of soil is degraded due to
-                                                    contamination from the overuse of pesticides and fertilizers for decades.
+                                                    contamination from the overuse of pesticides and fertilizers for
+                                                    decades.
                                                     - Not many have access to opt for mechanization, also
                                                     poor soil quality and varying climatic conditions
                                                     Due to unavailability of good market farmers sells their
-                                                    harvest product in low price and middle man get benifited. so need good market facilities in every
+                                                    harvest product in low price and middle man get benifited. so need
+                                                    good market facilities in every
                                                     district.
                                                 </p>
                                             </div>
@@ -112,7 +125,7 @@ const Home = () => {
                         </div>
                     </div>
                 </div>
-                <About />
+                <About/>
             </div>
         </div>
     )
