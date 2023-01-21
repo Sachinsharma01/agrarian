@@ -55,9 +55,9 @@ const Footer = () => {
                             <a  rel="noreferrer" href='https://www.facebook.com/profile.php?id=100088894643348'
                                target='_blank'><FaFacebookSquare
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a  rel="noreferrer" href='/' target='_blank'><FaTwitter
+                            <a  rel="noreferrer" href='https://twitter.com/Agrarian_First' target='_blank'><FaTwitter
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a  rel="noreferrer" href='/' target='_blank'><FaInstagram
+                            <a  rel="noreferrer" href='https://www.instagram.com/p/CnmtOg1PM18/?igshid=MDJmNzVkMjY%3D' target='_blank'><FaInstagram
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
                             <a  rel="noreferrer" href='https://www.youtube.com/@Agrarian_The_Trust_For_Growth' target='_blank'><FaYoutube
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
