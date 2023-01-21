@@ -302,6 +302,14 @@ textarea {
 	background: url("/public/assets/footer.jpg") !important;
 	height: 40vh;
 }
+.blog-banner {
+	background: url("/public/assets/agriBlog.jpg") !important;
+	height: 40vh;
+}
+.services-banner {
+	background: url("/public/assets/agriBlog.jpg") !important;
+	height: 40vh;
+}
 
 .team-name:hover {
 	color: #00816f !important;
