@@ -19,7 +19,7 @@ import Agriculture from "./pages/blogs/Agriculture";
 import BlogPage from "./pages/blogs/BlogPage";
 import AgriMotivation from "./pages/blogs/AgriMotivation";
 import Agritech from "./pages/blogs/Agritech";
-import Privacy from './privacy';
+import Privacy from './pages/privacy';
 
 
 function App() {
