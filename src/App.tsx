@@ -19,6 +19,7 @@ import Agriculture from "./pages/blogs/Agriculture";
 import BlogPage from "./pages/blogs/BlogPage";
 import AgriMotivation from "./pages/blogs/AgriMotivation";
 import Agritech from "./pages/blogs/Agritech";
+import Privacy from './privacy';
 
 
 function App() {
@@ -66,9 +67,13 @@ function App() {
                     <Route path='/blogs/agritech' exact>
                         <Agritech />
                     </Route>
+                    <Route path='/privacy' exact>
+                        <Privacy/>
+                    </Route>
                     <Route path='*' exact>
                         <Home/>
                     </Route>
+                    
                 </Switch>
             </div>
             <Toaster containerStyle={{
