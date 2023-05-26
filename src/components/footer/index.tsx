@@ -47,6 +47,9 @@ const Footer = () => {
                             AGRARIAN The Trust For Growth<br/>
                             17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406.<br/>
                         </p>
+                        <a href='https://play.google.com/store/apps/details?id=com.agrarian' target='_blank' rel="noreferrer" >
+                            <img src='/assets/playstore.png' height={50} alt='Play Store' />
+                        </a>
                     </div>
                 </div>
                 <div className='container mt-2'>
@@ -64,6 +67,7 @@ const Footer = () => {
                             <a  rel="noreferrer" href='https://www.linkedin.com/in/agrarian-the-trust-for-growth-ab5969260'
                                target='_blank'><FaLinkedin style={{height: '50px', width: '50px', color: 'white'}}/></a>
                         </div>
+                        
                     </div>
                 </div>
                 <div style={{textAlign: 'center', marginLeft: '0px'}}
