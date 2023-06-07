@@ -37,7 +37,7 @@ function AppMarketingModal(props: any) {
               us with integrated feedback system.
             </h6>
             <h6>
-              <span>✅</span>27/7 Active support available on the app.
+              <span>✅</span>24/7 Active support available on the app.
             </h6>
             <div
               className="d-flex align-items-center flex-wrap"
