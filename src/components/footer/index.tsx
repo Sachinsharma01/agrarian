@@ -42,7 +42,7 @@ const Footer = () => {
                     <div className='col-md-3 mt-4 text-wrap'>
                         <h2>Contact Us</h2>
                         <p>
-                            Contact No :- (+91) 8809140983<br/>
+                            Contact No :- (+91) 8737803157<br/>
                             {isMobile ? 'agrarianthetrust forgrowth@gmail.com' : 'Email : agrarianthetrustforgrowth@gmail.com'}<br/>
                             AGRARIAN The Trust For Growth<br/>
                             17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406.<br/>
