@@ -18,7 +18,6 @@ import Blog from "./pages/blogs";
 import Agriculture from "./pages/blogs/Agriculture";
 import BlogPage from "./pages/blogs/BlogPage";
 import AgriMotivation from "./pages/blogs/AgriMotivation";
-import Agritech from "./pages/blogs/Agritech";
 import Privacy from './pages/privacy';
 
 
@@ -64,9 +63,7 @@ function App() {
                     <Route path='/blogs/agri_motivation' exact>
                         <AgriMotivation />
                     </Route>
-                    <Route path='/blogs/agritech' exact>
-                        <Agritech />
-                    </Route>
+                    
                     <Route path='/privacy' exact>
                         <Privacy/>
                     </Route>

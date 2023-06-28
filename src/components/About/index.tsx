@@ -1,4 +1,5 @@
 import React from "react";
+import './index.css'
 
 const About = () => {
     return (
@@ -56,7 +57,24 @@ const About = () => {
                                 alt="logo"
                             />
                         </div>
-                        {/*)}*/}
+                        <h2> <b>In association with GLAU & IEDC </b></h2>
+                        <div className='logo'>
+                            {/* <div className="logo-1"> */}
+                            <img  src='./assets/GLA_logo.jpeg'
+                            height='60%'
+                            width='30%'
+                            alt='logo'
+                            />
+                        {/* </div> */}
+                        
+                        {/* <div className="logo-2"> */}
+                            <img  src='./assets/IEDC_logo.png'
+                            height='60%'
+                            width='30%'
+                            alt='logo'
+                            />
+                        {/* </div> */}
+                        </div>
                     </div>
                 </div>
             </div>
