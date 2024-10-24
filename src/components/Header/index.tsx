@@ -68,11 +68,11 @@ const Header = () => {
                                                 className={active === 'contact' ? 'active' : ''}>Contact</span></span>
                                             </Link>
                                             </li>
-                                            <li key={6} className='col-2'><Link to='/blogs'
+                                            <li key={6} className='col-2'><Link to='/vermicompost'
                                                                                 onClick={() => setHandler('blogs')}
                                                                                 className='nav-link'><span
                                                 className='link'><span
-                                                className={active === 'blogs' ? 'active' : ''}>Blog</span></span>
+                                                className={active === 'blogs' ? 'active' : ''}>Product</span></span>
                                             </Link>
                                             </li>
 
