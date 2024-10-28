@@ -19,6 +19,7 @@ import Agriculture from "./pages/blogs/Agriculture";
 import BlogPage from "./pages/blogs/BlogPage";
 import AgriMotivation from "./pages/blogs/AgriMotivation";
 import Privacy from './pages/privacy';
+import VermiCompost from './pages/product';
 
 
 function App() {
@@ -50,6 +51,9 @@ function App() {
                     </Route>
                     <Route path='/services' exact>
                         <ServicesPage/>
+                    </Route>
+                    <Route path='/vermicompost' exact>
+                        <VermiCompost />
                     </Route>
                     <Route path='/blogs' exact>
                         <Blog />

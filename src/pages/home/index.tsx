@@ -4,6 +4,7 @@ import Banner from "../../components/banner";
 import Services from "../../components/services";
 import About from "../../components/About";
 import AppMarketingModal from "../../components/app";
+import ProductMarketingModal from "../../components/product";
 
 const Home = () => {
   const [showModal, setShowModal] = React.useState(true);
@@ -53,7 +54,11 @@ const Home = () => {
           </div>
         </div>
         <Services />
-        <AppMarketingModal
+        {/* <AppMarketingModal
+          show={showModal}
+          onHide={() => setShowModal(false)}
+        /> */}
+        <ProductMarketingModal
           show={showModal}
           onHide={() => setShowModal(false)}
         />
