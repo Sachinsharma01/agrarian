@@ -42,10 +42,10 @@ const Footer = () => {
                     <div className='col-md-3 mt-4 text-wrap'>
                         <h2>Contact Us</h2>
                         <p>
-                            Contact No :- (+91) 8737803157<br/>
-                            {isMobile ? 'agrarianthetrust forgrowth@gmail.com' : 'Email : agrarianthetrustforgrowth@gmail.com'}<br/>
-                            AGRARIAN The Trust For Growth<br/>
-                            17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406.<br/>
+                            Contact No :- (+91) 7668910456<br/>
+                            {isMobile ? 'contact@agriaanrootz.com' : 'Email : contact@agriaanrootz.com'}<br/>
+                            Agriaan Rootz Pvt. Ltd.<br/>
+                            Address: Satta Kothi, Etmadpur, Agra, Uttar Pradesh - 283202<br/>
                         </p>
                         <a href='https://play.google.com/store/apps/details?id=com.agrarian' target='_blank' rel="noreferrer" >
                             <img src='/assets/playstore.png' height={50} alt='Play Store' />
@@ -55,16 +55,16 @@ const Footer = () => {
                 <div className='container mt-2'>
                     <div className='row'>
                         <div className='col-12 d-flex justify-content-center align-items-center gap-md-5 gap-3'>
-                            <a  rel="noreferrer" href='https://www.facebook.com/profile.php?id=100088894643348'
+                            <a  rel="noreferrer" href='https://www.facebook.com/'
                                target='_blank'><FaFacebookSquare
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
                             <a  rel="noreferrer" href='https://twitter.com/Agrarian_First' target='_blank'><FaTwitter
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a  rel="noreferrer" href='https://www.instagram.com/p/CnmtOg1PM18/?igshid=MDJmNzVkMjY%3D' target='_blank'><FaInstagram
+                            <a  rel="noreferrer" href='https://www.instagram.com/agriaanrootz?igsh=MXAwbmdwN3BkYzE0ZQ==' target='_blank'><FaInstagram
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
                             <a  rel="noreferrer" href='https://www.youtube.com/@Agrarian_The_Trust_For_Growth' target='_blank'><FaYoutube
                                 style={{height: '50px', width: '50px', color: 'white'}}/></a>
-                            <a  rel="noreferrer" href='https://www.linkedin.com/in/agrarian-the-trust-for-growth-ab5969260'
+                            <a  rel="noreferrer" href='https://www.linkedin.com/company/agriaanrootz/posts/?feedView=all'
                                target='_blank'><FaLinkedin style={{height: '50px', width: '50px', color: 'white'}}/></a>
                         </div>
                         

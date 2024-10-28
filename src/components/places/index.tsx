@@ -11,17 +11,17 @@ const Places = () => {
                       <div className="col-md-2">
                           <MdOutlinePlace style={{fontSize: 'xx-large'}} />
                           <p className='mt-2'>
-                              17km Stone, NH-2, Mathura-Delhi Road Mathura, Chaumuhan, Uttar Pradesh 281406
+                          Address: Satta Kothi, Etmadpur, Agra, Uttar Pradesh - 283202
                           </p>
                       </div>
                       <div className="col-md-2">
                           <MdOutlineMail style={{fontSize: 'xx-large'}} />
-                          <p className='mt-2'>agrarianthetrustforgrowth@gmail.com
-                              AGRARIAN The Trust For Growth</p>
+                          <p className='mt-2'>contact@agriaanrootz.com
+                          Agriaan Rootz Pvt. Ltd.</p>
                       </div>
                       <div className="col-md-2">
                           <BsPhone style={{fontSize: 'xx-large'}} />
-                          <p className='mt-2'>(+91) 8737803157<br/> <br/> <br/> </p>
+                          <p className='mt-2'>(+91) 7668910456<br/> <br/> <br/> </p>
                       </div>
                   </div>
               </div>
