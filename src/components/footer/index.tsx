@@ -31,8 +31,6 @@ const Footer = () => {
                                 Team</Link>
                             <Link to='/about' target='_blank' style={{color: 'gray'}}
                                   className='text-decoration-none'>About</Link>
-                            <Link to='/team/mentors' target='_blank' style={{color: 'gray'}}
-                                  className='text-decoration-none'>Mentors</Link>
                             <Link to='/careers' target='_blank' style={{color: 'gray'}}
                                   className='text-decoration-none'>Careers</Link>
                             <Link to='/blogs' target='_blank' style={{color: 'gray'}}

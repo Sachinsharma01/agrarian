@@ -1,7 +1,6 @@
 import React from 'react';
 import About from "../../components/About";
 import Mission from "../../components/mission";
-import Mentor from "../../components/team/mentor";
 
 const AboutUs = () => {
     localStorage.setItem('active', 'about');
@@ -17,9 +16,6 @@ const AboutUs = () => {
                                 </div>
                             </div>
                         </div>
-                    </div>
-                    <div className="col-12">
-                        <Mentor/>
                     </div>
                     <div className="col-12">
                         <About />

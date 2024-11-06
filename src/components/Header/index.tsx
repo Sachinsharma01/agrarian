@@ -4,7 +4,7 @@ import {RxHamburgerMenu} from 'react-icons/rx'
 import {useQuery} from "../../hooks/useQuery";
 import SideBar from "../sideBar";
 import {VscChromeClose} from "react-icons/vsc";
-import {IoIosArrowDown} from 'react-icons/io'
+import {IoIosArrowDown} from 'react-icons/io';
 
 const Header = () => {
     const [isSiderBarOpen, setIsSideBarOpen] = useState(false);
@@ -26,7 +26,7 @@ const Header = () => {
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-md-1 col-10'>
-                                <img src='/assets/logo.jpg' alt='agrarian'/>
+                                <img src='/assets/logoo.png' alt='agrarian' width={120}/>
                             </div>
                             <div className='col-md-11 col-2'>
                                 {!isMobile ? <div className='container-fluid text-center h-100'>
@@ -43,17 +43,13 @@ const Header = () => {
                                                 className={active === 'services' ? 'active' : ''}>Services</span></span>
                                             </Link>
                                             </li>
-                                            <li key={3} className='col-2 header-inner-span'>
-                                                <div className='header-head'
-                                                     onClick={() => setInnerHeaderOpen(!innerHeaderOpen)}
-                                                     >Team <IoIosArrowDown />
-                                                </div>
-                                                {innerHeaderOpen && <div className='header-inner rounded-3'>
-                                                    <Link to='/team/mentors' target='_blank'
-                                                          className='text-decoration-none text-dark inner-link'><span>Mentors</span></Link><br/>
-                                                    <Link to='/team' target='_blank'
-                                                          className='text-decoration-none text-dark inner-link'><span>Team</span></Link>
-                                                </div>}
+                                            <li key={3} className='col-2'>                        
+                                                    <Link to='/team' 
+                                                    onClick={() => setHandler('team')}
+                                                    className='nav-link'
+                                                    target='_blank'><span
+                                                    className='link'><span
+                                                    className={active === 'team' ? 'active' : ''}>Team</span></span></Link>
                                             </li>
                                             <li key={4} className='col-2'>
                                                 <Link to='/about' onClick={() => setHandler('about')}
