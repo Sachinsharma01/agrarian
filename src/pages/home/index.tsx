@@ -8,7 +8,7 @@ import ProductMarketingModal from "../../components/product";
 
 const Home = () => {
   const [showModal, setShowModal] = React.useState(true);
-  document.title = "Agrarian | The Trust Of Growth";
+  document.title = "Agrarian";
   localStorage.setItem("active", "home");
   return (
     <div className="container-fluid">
