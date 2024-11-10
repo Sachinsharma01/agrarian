@@ -26,7 +26,7 @@ const Header = () => {
                     <div className='container-fluid'>
                         <div className='row'>
                             <div className='col-md-1 col-10'>
-                                <img src='/assets/logoo.png' alt='agrarian' width={120}/>
+                                <img src='/assets/logo.png' alt='agrarian' width={120}/>
                             </div>
                             <div className='col-md-11 col-2'>
                                 {!isMobile ? <div className='container-fluid text-center h-100'>
@@ -46,8 +46,7 @@ const Header = () => {
                                             <li key={3} className='col-2'>                        
                                                     <Link to='/team' 
                                                     onClick={() => setHandler('team')}
-                                                    className='nav-link'
-                                                    target='_blank'><span
+                                                    className='nav-link'><span
                                                     className='link'><span
                                                     className={active === 'team' ? 'active' : ''}>Team</span></span></Link>
                                             </li>
