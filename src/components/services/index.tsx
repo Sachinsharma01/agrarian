@@ -25,7 +25,7 @@ const Services = () => {
                                             {/*<button>*/}
                                             <small className='s1-btn'>Micro Entrepreneurship</small>
                                             <Link className='s1-btn' to='/services' target='_blank'
-                                                  style={{fontSize: "30px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
+                                                  style={{fontSize: "20px", color: '#1DCA11'}}><AiOutlineArrowRight/></Link>
                                             {/*</button>*/}
                                         </div>
                                         <div className='col-6 text-center s2'>

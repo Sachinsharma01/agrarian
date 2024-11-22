@@ -155,7 +155,7 @@ Link {
 }
 
 .service {
-	background-image: url("/public/assets/service-logo.jpg");
+	background-image: url("/public/assets/logo.png");
 	background-position: center;
 	background-repeat: no-repeat;
 }

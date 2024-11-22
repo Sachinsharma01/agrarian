@@ -14,7 +14,7 @@ function AppMarketingModal(props: any) {
     >
       <Modal.Header closeButton>
         <Modal.Title id="contained-modal-title-vcenter">
-          Agrarian Pvt Ltd
+          Agrarian Pvt. Ltd.
         </Modal.Title>
       </Modal.Header>
       <Modal.Body>

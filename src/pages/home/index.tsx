@@ -8,7 +8,7 @@ import ProductMarketingModal from "../../components/product";
 
 const Home = () => {
   const [showModal, setShowModal] = React.useState(true);
-  document.title = "Agrarian | The Trust Of Growth";
+  document.title = "Agrarian";
   localStorage.setItem("active", "home");
   return (
     <div className="container-fluid">
@@ -79,7 +79,7 @@ const Home = () => {
                     <div className="row">
                       <div className="rounded-3 col-md-6 d-flex justify-content-center align-items-center">
                         <img
-                          src="/assets/farmers.jpg"
+                          src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?q=80&w=2071&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
                           height="90%"
                           width="100%"
                           alt="logo"
@@ -93,48 +93,26 @@ const Home = () => {
                           className=""
                           style={{ textAlign: "justify", fontWeight: "400" }}
                         >
-                          <small
-                            style={{ fontSize: "30px", fontWeight: "400" }}
-                          >
-                            W
-                          </small>
-                          ith a population of 1.27 billion India is the world's
-                          second most populous country. It is the seventh
-                          largest country in the world with an area of 3.288
-                          million sq km. It has a long coastline of over 7,500
-                          km. India is a diverse country where over 22 major
-                          languages and 415 dialects are spoken. With the
-                          highest mountain range in the world, the Himalayas to
-                          its North, the Thar desert to its West, the Gangetic
-                          delta to its East and the Deccan Plateau in the South,
-                          the country is home to vast agro-ecological diversity.
+                          
+                          - <strong>Population:</strong> 1.43 billion (second largest in the world) <br />
+                          - <strong>Area:</strong> 3.288 million sq km (seventh largest globally) <br />
+                          - <strong>Coastline:</strong> Over 7,500 km  <br />
+                          - <strong>Diversity:</strong> 22 major languages, 415 dialects 
                           <br />
                           <br />
-                          <strong>Major economic pillar:- </strong> Around
-                          65–70%% of the Indian population (directly or
-                          indirectly) depends upon the Agriculture sector and
-                          currently, it contributes to 16–17% of the GDP in the
-                          Indian economy.
+                          <strong>Agriculture: </strong> <br />
+                          - <strong>Economic Role:</strong> Engages 65-70% of the population, contributing 16-17% to GDP  
+                          <br />
+                          - <strong>Major Crops:</strong>  <br />
+                          - Rice: 45.1 million hectares  <br /> 
+                          - Wheat: 31.6 million hectares   <br />
+                          - Pulses: 29 million hectares
+
                           <br />
                           <br />
-                          <strong>Major Crops:- </strong>
-                          <br />
-                          1. Area of cultivation of Rice 45.1 Million/Ha.
-                          <br />
-                          2. Area of cultivation of Wheat 31.6 Million/Ha.
-                          <br />
-                          3. Area of cultivation of Pulses 29 Million/Ha.
-                          <br /> <br />
-                          <strong>
-                            Livelihoods and food security for many{" "}
-                          </strong>
-                          Concerning Indian Agriculture provides livelihood to
-                          nearly 70% of the workforce. It also contributes
-                          immensely to the food security of the nation as it is
-                          the top producer of many crops. Good quality of seeds
-                          and new technologies is not reaching the farmers. The
-                          quality of soil is degraded due to contamination from
-                          the overuse of pesticides and fertilizers for decades.
+
+                          <strong>Challenges: </strong> <br />
+                          Despite being a top producer and a key contributor to food security, challenges persist, including poor access to quality seeds, outdated technologies, and soil degradation from excessive pesticide and fertilizer use.
                         </p>
                       </div>
                       {/*{!isMobile && (*/}

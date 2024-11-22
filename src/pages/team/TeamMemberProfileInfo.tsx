@@ -34,8 +34,8 @@ const TeamMemberProfileInfo = () => {
                             <div className="rounded-3 col-md-6 d-flex justify-content-center align-items-center">
                                 <img
                                     src={`${profileInfo.image}`}
-                                    height="80%"
-                                    width="70%"
+                                    height="60px"
+                                    width="60px"
                                     alt="logo"
                                 />
                             </div>
