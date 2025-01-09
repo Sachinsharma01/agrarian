@@ -35,6 +35,8 @@ const Footer = () => {
                                   className='text-decoration-none'>Careers</Link>
                             <Link to='/blogs' target='_blank' style={{color: 'gray'}}
                                   className='text-decoration-none'>Blog</Link>
+                            <Link to='/privacy' target='_blank' style={{color: 'gray'}}
+                                  className='text-decoration-none'>Policy</Link>
                         </div>
                     </div>
                     <div className='col-md-3 mt-4 text-wrap'>
@@ -69,8 +71,8 @@ const Footer = () => {
                     </div>
                 </div>
                 <div style={{textAlign: 'center', marginLeft: '0px'}}
-                     className='container-fluid mt-3'>Copyright &copy;2023 All Rights Reserved by <span
-                    style={{color: '#1DCA11'}}>Agrarian</span>
+                     className='container-fluid mt-3'>Copyright &copy;2025 All Rights Reserved by <span
+                    style={{color: '#1DCA11'}}>Agriaan Rootz</span>
                 </div>
             </footer>
         </>

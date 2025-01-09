@@ -3,18 +3,18 @@ import './style.css';
 
 const  Privacy = () => {
   return (
-    <div className="privacy">
-        <h1> Agrarian Privacy Policy</h1>
+    <div className="privacy mx-3">
+        <h1> Agriaan Rootz Policy and Terms</h1>
         <hr></hr>
         <p>
-          Agrarian built the Agrarian app as a Free app. This SERVICE is provided by Agrarian at no cost and is intended for use as is.<br></br><br></br>
+          Agriaan Rootz built the Agriaan Rootz app as a Free app. This SERVICE is provided by Agriaan Rootz at no cost and is intended for use as is.<br></br><br></br>
 This page is used to inform visitors regarding our policies with the collection, use, and disclosure of Personal Information if anyone decided to use our Service.<br></br><br></br>
 If you choose to use our Service, then you agree to the collection and use of information in relation to this policy. The Personal Information that we collect is used for providing and improving the Service. We will not use or share your information with anyone except as described in this Privacy Policy.<br></br><br></br>
-The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Agrarian unless otherwise defined in this Privacy Policy.
+The terms used in this Privacy Policy have the same meanings as in our Terms and Conditions, which are accessible at Agriaan Rootz unless otherwise defined in this Privacy Policy.
 </p>
 
 <h3>Information Collection and Use</h3>
-<p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Agrarian. The information that we request will be retained by us and used as described in this privacy policy.<br></br><br></br>
+<p>For a better experience, while using our Service, we may require you to provide us with certain personally identifiable information, including but not limited to Agriaan Rootz. The information that we request will be retained by us and used as described in this privacy policy.<br></br><br></br>
 The app does use third-party services that may collect information used to identify you.<br></br><br></br>
 Link to the privacy policy of third-party service providers used by the app</p>
   <ol>
@@ -46,8 +46,12 @@ We want to inform users of this Service that these third parties have access to 
 <h3>Changes to This Privacy Policy</h3>
 <p>We may update our Privacy Policy from time to time. Thus, you are advised to review this page periodically for any changes. We will notify you of any changes by posting the new Privacy Policy on this page.<br></br>
 This policy is effective as of 2023-05-15</p>
+<h3>Cancellations</h3>
+<p>We do not offer cancellations for any reason. We will not be able to cancel any transactions that are not made through our website or mobile app. Although if you want to cancel the order, you can do so through by contacting us at support@agriaanrootz.com.</p>
+<h3>Refunds</h3>
+<p>As of now we do not offer refunds for any reason. We will not be able to refund any transactions that are not made through our website or mobile app. Refunds will be provided only when the order is cancelled through our support team.</p>
 <h3>Contact Us</h3>
-<p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at agrarianthetrustforgrowth@gmail.com.</p>
+<p>If you have any questions or suggestions about our Privacy Policy, do not hesitate to contact us at support@agriaanrootz.com.</p>
     </div>
   )
 }
