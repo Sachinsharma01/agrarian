@@ -36,7 +36,9 @@ const Footer = () => {
                             <Link to='/blogs' target='_blank' style={{color: 'gray'}}
                                   className='text-decoration-none'>Blog</Link>
                             <Link to='/privacy' target='_blank' style={{color: 'gray'}}
-                                  className='text-decoration-none'>Policy</Link>
+                                  className='text-decoration-none'>Privacy Policy</Link>
+                            <Link to='/terms' target='_blank' style={{color: 'gray'}}
+                                  className='text-decoration-none'>Terms and Conditons</Link>
                         </div>
                     </div>
                     <div className='col-md-3 mt-4 text-wrap'>

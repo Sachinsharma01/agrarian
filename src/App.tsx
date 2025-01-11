@@ -19,6 +19,7 @@ import BlogPage from "./pages/blogs/BlogPage";
 import AgriMotivation from "./pages/blogs/AgriMotivation";
 import Privacy from './pages/privacy';
 import VermiCompost from './pages/product';
+import TermsAndConditions from './pages/terms';
 
 
 function App() {
@@ -66,6 +67,9 @@ function App() {
                     
                     <Route path='/privacy' exact>
                         <Privacy/>
+                    </Route>
+                    <Route path='/terms' exact>
+                        <TermsAndConditions/>
                     </Route>
                     <Route path='*' exact>
                         <Home/>
